@@ -1,13 +1,17 @@
 {
-    "name": "ReactNativeRootToast",
-    "version": "0.0.1",
-    "private": true,
-    "scripts": {
-        "start": "react-native start"
-    },
-    "dependencies": {
-        "react-native": "^0.20.0",
-        "react-native-root-toast": "../",
-        "react-native-root-modal": "1.0.3"
-    }
+  "name": "ReactNativeRootToast",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "dependencies": {
+    "react-native": "^0.20.0",
+    "react-native-root-toast": "../",
+    "react-native-root-modal": "1.0.3",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
