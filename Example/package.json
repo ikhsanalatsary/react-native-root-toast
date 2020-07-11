@@ -6,7 +6,7 @@
         "start": "react-native start"
     },
     "dependencies": {
-        "react-native": "^0.20.0",
+        "react-native": "^0.39.1",
         "react-native-root-toast": "../",
         "react-native-root-modal": "1.0.3"
     }
